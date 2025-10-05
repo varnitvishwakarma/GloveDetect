@@ -1,4 +1,4 @@
-### Glove Detection Project
+# Glove Detection Project
 
 ### Dataset Name and Source
 **Dataset:** Hand-Handinglove Detection Dataset  
