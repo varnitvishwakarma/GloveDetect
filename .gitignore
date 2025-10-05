@@ -1,0 +1,25 @@
+# Virtual environments
+glove/
+venv/
+env/
+
+# Dataset
+dataset/
+
+# YOLO model weights (large files)
+*.pt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs and outputs
+logs/
+output/
+
+# Misc
+Part_2.pdf
+.DS_Store
+*.zip
+git add .
