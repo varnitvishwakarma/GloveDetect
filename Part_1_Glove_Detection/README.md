@@ -45,6 +45,6 @@ python Part_1_Glove_Detection\detection_script.py \
 --model "model\glove_detection\weights\best.pt" \
 --confidence 0.5
 
-### 3️⃣ Run Streamlit App
+#### 3️⃣ Run Streamlit App
 streamlit run Part_1_Glove_Detection\app.py
 
