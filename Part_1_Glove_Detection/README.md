@@ -29,12 +29,15 @@ The dataset contains images of gloved and bare hands, split into train, validati
 ### How to Run Your Script
 
 #### 1️⃣ Activate Environment
-```bash
+
 cd E:\submission
 python -m venv glove
 .\glove\Scripts\activate
 pip install -r requirements.txt
 
+#### 2️⃣ Run Detection Script
+
+Use this command to perform glove detection on test images:
 python Part_1_Glove_Detection\detection_script.py \
 --input "dataset\test\images" \
 --output "output" \
@@ -42,9 +45,6 @@ python Part_1_Glove_Detection\detection_script.py \
 --model "model\glove_detection\weights\best.pt" \
 --confidence 0.5
 
+### 3️⃣ Run Streamlit App
 streamlit run Part_1_Glove_Detection\app.py
 
-
-This version uses **big headlines for the main title**, smaller subheadings for sections, and clear bullet points for readability.  
-
-If you want, I can also **make it visually prettier with emojis and better spacing** for GitHub display. Do you want me to do that?
